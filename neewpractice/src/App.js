@@ -19,7 +19,7 @@ function Sty(){
         colors.current.classList="inactive"
     }
     return(<>
-    <h1 ref={colors} className="inactive">This is href practice code</h1>
+    <h1 ref={colors} className="inactive">This is href practice code 1</h1>
     <h1>Increase button to increase the count.</h1>
     <h2> Current count is: {x.current} </h2>
     <button onClick={()=>{
